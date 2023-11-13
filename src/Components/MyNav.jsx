@@ -3,7 +3,7 @@ import TemporaryDrawer from "./SideBar";
 import Cart from "./Cart";
 import { useState } from "react";
 import logo from "../logo.svg";
-import avatar from "../imafe-avata.png";
+import avatar from "../image-avatar.png";
 
 function MyNav(props) {
   function SmallNumber() {
