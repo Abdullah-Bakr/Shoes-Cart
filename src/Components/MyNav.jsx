@@ -2,7 +2,7 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import TemporaryDrawer from "./SideBar";
 import Cart from "./Cart";
 import { useState } from "react";
-import logo from "/images/logo.svg";
+import logo from "../logo.svg";
 
 function MyNav(props) {
   function SmallNumber() {
