@@ -10,23 +10,23 @@ function Contain(props) {
   const data = [
     {
       id: 1,
-      mainImage: "/images/image-product-1.jpg",
-      thumbNail: "/images/image-product-1-thumbnail.jpg",
+      mainImage: "./images/image-product-1.jpg",
+      thumbNail: "./images/image-product-1-thumbnail.jpg",
     },
     {
       id: 2,
-      mainImage: "/images/image-product-2.jpg",
-      thumbNail: "/images/image-product-2-thumbnail.jpg",
+      mainImage: "./images/image-product-2.jpg",
+      thumbNail: "./images/image-product-2-thumbnail.jpg",
     },
     {
       id: 3,
-      mainImage: "/images/image-product-3.jpg",
-      thumbNail: "/images/image-product-3-thumbnail.jpg",
+      mainImage: "./images/image-product-3.jpg",
+      thumbNail: "./images/image-product-3-thumbnail.jpg",
     },
     {
       id: 4,
-      mainImage: "/images/image-product-4.jpg",
-      thumbNail: "/images/image-product-4-thumbnail.jpg",
+      mainImage: "./images/image-product-4.jpg",
+      thumbNail: "./images/image-product-4-thumbnail.jpg",
     },
   ];
   // const [amount, setAmount] = useState(0);
@@ -81,7 +81,7 @@ function Contain(props) {
                 className={slideIndex === index + 1 ? "relative" : "hidden"}
               >
                 <img
-                  src="/images/icon-close.svg"
+                  src="./images/icon-close.svg"
                   alt=""
                   className="absolute top-[-40px] right-0 w-5 cursor-pointer"
                   onClick={() => setShowLightBox(false)}
