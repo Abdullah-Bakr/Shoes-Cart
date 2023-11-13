@@ -6,6 +6,9 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 
+import close from "../icon-close.svg";
+import menuBar from "../icon-menu.svg";
+
 import ListItemText from "@mui/material/ListItemText";
 
 export default function TemporaryDrawer() {
@@ -31,7 +34,7 @@ export default function TemporaryDrawer() {
         role="presentation"
       >
         <img
-          src="public/images/icon-close.svg"
+          src={close}
           alt=""
           className="p-5 cursor-pointer"
           onClick={toggleDrawer(anchor, false)}
@@ -54,7 +57,7 @@ export default function TemporaryDrawer() {
       {["left"].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)}>
-            <img src="/images/icon-menu.svg" />
+            <img src={menuBar} />
           </Button>
           <Drawer
             anchor={anchor}

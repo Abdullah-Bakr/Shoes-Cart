@@ -3,6 +3,7 @@ import TemporaryDrawer from "./SideBar";
 import Cart from "./Cart";
 import { useState } from "react";
 import logo from "../logo.svg";
+import avatar from "../imafe-avata.png";
 
 function MyNav(props) {
   function SmallNumber() {
@@ -53,7 +54,7 @@ function MyNav(props) {
           </div>
         </div>
         <img
-          src="/images/image-avatar.png"
+          src={avatar}
           alt=""
           className="h-[25px] w-[25px] md:h-[60px] md:w-[60px] mx-4 transition-all duration-300 cursor-pointer object-contain border-solid rounded-full border-[3px] border-transparent hover:border-orange-500"
         />
