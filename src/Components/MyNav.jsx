@@ -2,6 +2,7 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import TemporaryDrawer from "./SideBar";
 import Cart from "./Cart";
 import { useState } from "react";
+import logo from "../../public/images/logo.svg";
 
 function MyNav(props) {
   function SmallNumber() {
@@ -23,11 +24,7 @@ function MyNav(props) {
             <TemporaryDrawer />
           </li>
           <li>
-            <img
-              src="/images/logo.svg"
-              alt=""
-              className="cursor-pointer mx-4"
-            />
+            <img src={logo} alt="" className="cursor-pointer mx-4" />
           </li>
         </ul>
         <nav className="hidden md:block">
@@ -56,7 +53,7 @@ function MyNav(props) {
           </div>
         </div>
         <img
-          src="/images/image-avatar.png"
+          src="./images/image-avatar.png"
           alt=""
           className="h-[25px] w-[25px] md:h-[60px] md:w-[60px] mx-4 transition-all duration-300 cursor-pointer object-contain border-solid rounded-full border-[3px] border-transparent hover:border-orange-500"
         />
